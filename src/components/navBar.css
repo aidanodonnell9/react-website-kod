@@ -1,0 +1,28 @@
+ /*Used the Tennessee Titans Navy */
+ .navbar {
+     background: linear-gradient(90deg, #0C2340, #0C2340);
+     height: 80px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.2rem;
+     position: sticky;
+     top: 0;
+     z-index: 999;
+ }
+
+ .navbar-logo {
+     color: #fff;
+     justify-self: start;
+     margin-left: 20px;
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 2rem;
+     display: flex;
+     align-items: center;
+ }
+
+ .fa-typo3 {
+     margin-left: 0.5rem;
+     font-size: 1.8rem;
+ }
