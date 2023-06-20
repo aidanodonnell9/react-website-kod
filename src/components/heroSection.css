@@ -1,0 +1,91 @@
+.hero-container {
+    /* background: url('../Screen_Shot_2021_01_03_at_1.59.54_PM.0.jpg') center center/cover no-repeat; */
+    /* background: url('../2209279.jpg') center center/cover no-repeat; */
+    /* background: url('./LECOM-FULL-SIZE-IMAGE-ERIE-PA.jpg') center center/cover no-repeat; */
+    /* background-color: white; */
+    background-image: linear-gradient(135deg, rgba(57, 57, 57, 0.04) 0%, rgba(57, 57, 57, 0.04) 37%, rgba(143, 143, 143, 0.04) 37%, rgba(143, 143, 143, 0.04) 100%), linear-gradient(45deg, rgba(11, 11, 11, 0.04) 0%, rgba(11, 11, 11, 0.04) 30%, rgba(166, 166, 166, 0.04) 30%, rgba(166, 166, 166, 0.04) 100%), linear-gradient(90deg, rgba(231, 231, 231, 0.04) 0%, rgba(231, 231, 231, 0.04) 63%, rgba(193, 193, 193, 0.04) 63%, rgba(193, 193, 193, 0.04) 100%), linear-gradient(0deg, rgba(162, 162, 162, 0.04) 0%, rgba(162, 162, 162, 0.04) 14%, rgba(210, 210, 210, 0.04) 14%, rgba(210, 210, 210, 0.04) 100%), linear-gradient(90deg, rgb(12, 35, 64), rgb(4, 30, 66));
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.hero-container>h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -40px;
+    -webkit-text-stroke: 0px #0c2340;
+
+}
+
+.hero-container>p {
+    color: #fff;
+    font-size: 32px;
+    margin-top: 8px;
+    /* margin-bottom: 10px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.office-images {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-btns {
+    margin-top: 30px;
+}
+
+.hero-btns .btn {
+    margin: 6px;
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container>h1 {
+        font-size: 70px;
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container>h1 {
+        font-size: 40px;
+        margin-top: -100px;
+    }
+
+    .hero-container>p {
+        font-size: 30px;
+    }
+
+    .btn-mobile {
+        display: block;
+        margin: auto;
+        margin-top: 25px;
+        text-decoration: none;
+    }
+
+    .btn {
+        margin-top: 20px;
+        align-items: flex-end;
+        width: 100%
+    }
+
+    .office-images {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}

@@ -6,6 +6,7 @@
 }
 
 .home,
+.about-us,
 .location,
 .patient-forms {
   display: flex;
@@ -16,8 +17,18 @@
 }
 
 
+.about-us {
+  background-image: url('./IMG-0178.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+
 .location {
-  background-image: url('/public/IMG-0178.jpg');
+  background-image: url('./IMG-0178.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -26,7 +37,7 @@
 }
 
 .patient-forms {
-  background-image: url('/public/IMG-0178.jpg');
+  background-image: url('./IMG-0178.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
