@@ -1,0 +1,166 @@
+@media only screen and (min-width:961px) {
+
+
+    .pdf {
+        width: 30vw;
+        height: 75vh;
+        position: absolute;
+        /* or absolute */
+        top: 16%;
+        left: 57%;
+    }
+
+    /* Expand to the entire container */
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .patient-form {
+        /* background-color: transparent; */
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        height: 90vh;
+        align-items: center;
+        justify-content: center;
+        /* font-size: 3rem; */
+        /* color: #55565A; */
+        color: #0c2340;
+        margin-left: 150px;
+        background: linear-gradient(to right,
+                #fff 0%,
+                #fff 45.6%,
+                #9F9DA4 00%,
+                #9F9DA4 100%);
+    }
+
+    .patient-form>h1 {
+        font-size: 4vw;
+        position: absolute;
+        padding-top: 1.7%;
+        top: 10%;
+        left: 6.5%;
+    }
+
+    .patient-form>p {
+        color: #55565A;
+        position: absolute;
+        /* outline: green solid 3px; */
+        top: 25%;
+        left: 6.5%;
+        padding-bottom: 2%;
+        font-size: 1.5vw;
+        /* transform: translate(-50%, -50%); */
+        /* color: #0c2340; */
+        width: 35vw;
+    }
+
+    .but>a>button {
+        color: #0c2340;
+        display: block;
+        text-align: center;
+        /* border-radius: 25px; */
+        margin-top: 1vh;
+        padding: 1vw;
+        font-size: 1.54vw;
+        background-color: #fff;
+        outline: #0c2340 solid 4px;
+        position: absolute;
+        top: 63%;
+        left: 12%;
+    }
+
+    .but>a>button:hover {
+        background: #0c2340;
+        color: #fff;
+        transition: all 0.3s ease-in;
+    }
+
+    /* .pdf {
+
+        display: block;
+        text-align: center;
+        position: absolute;
+        padding-top: 81px;
+        padding-bottom: 81px;
+        padding-left: 225px;
+        padding-right: 225px;
+        right: 0px;
+        top: 80px;
+    } */
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+
+    .patient-form>h1 {
+        color: #0c2340;
+        font-size: 6vw;
+        position: absolute;
+        padding-top: 1.7%;
+        top: 10%;
+        left: 27%;
+
+    }
+
+    .patient-form {
+        height: 90vh;
+        background: linear-gradient(to bottom,
+                #fff 0%,
+                #fff 42.6%,
+                #55565A 00%,
+                #55565A 100%);
+    }
+
+    .patient-form>p {
+        color: #55565A;
+        font-size: 2.8vw;
+        position: absolute;
+        width: 70%;
+        top: 21%;
+        left: 16%;
+        text-align: center;
+    }
+
+    .pdf {
+        width: 70%;
+        height: 40vh;
+        position: absolute;
+        /* or absolute */
+        top: 56.5%;
+        left: 15%;
+    }
+
+    /* Expand to the entire container */
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .but>a>button {
+        color: #0c2340;
+        display: block;
+        text-align: center;
+        align-items: center;
+        /* border-radius: 25px; */
+        /* margin-top: 1vh; */
+        padding: 1vw;
+        font-size: 1.5vh;
+        background-color: #fff;
+        outline: #0c2340 solid 4px;
+        position: absolute;
+        top: 46%;
+        left: 33%;
+        right: 33%;
+    }
+
+    .but>a>button:hover {
+        background: #0c2340;
+        color: #fff;
+        transition: all 0.3s ease-in;
+    }
+
+
+}

@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, #0c2340 0%, #0c2340 100%);
+    background: #0c2340;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    border-bottom: solid #fff 6px;
 }
 
 .navbar-container {
@@ -62,7 +63,7 @@
 }
 
 .navbarlinks:hover {
-    border-bottom: 6px solid #55565A;
+    border-bottom: 6px solid #9F9DA4;
     transition: all 0.2s ease-out;
 }
 
@@ -97,7 +98,8 @@
     }
 
     .nav-menu.active {
-        background: #55565A;
+        background: #9F9DA4;
+        border-bottom: solid #fff 6px;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;

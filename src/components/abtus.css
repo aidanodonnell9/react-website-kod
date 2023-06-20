@@ -1,0 +1,13 @@
+.about-usheader {
+    background-image: linear-gradient(135deg, rgba(57, 57, 57, 0.04) 0%, rgba(57, 57, 57, 0.04) 37%, rgba(143, 143, 143, 0.04) 37%, rgba(143, 143, 143, 0.04) 100%), linear-gradient(45deg, rgba(11, 11, 11, 0.04) 0%, rgba(11, 11, 11, 0.04) 30%, rgba(166, 166, 166, 0.04) 30%, rgba(166, 166, 166, 0.04) 100%), linear-gradient(90deg, rgba(231, 231, 231, 0.04) 0%, rgba(231, 231, 231, 0.04) 63%, rgba(193, 193, 193, 0.04) 63%, rgba(193, 193, 193, 0.04) 100%), linear-gradient(0deg, rgba(162, 162, 162, 0.04) 0%, rgba(162, 162, 162, 0.04) 14%, rgba(210, 210, 210, 0.04) 14%, rgba(210, 210, 210, 0.04) 100%), linear-gradient(90deg, rgb(12, 35, 64), rgb(4, 30, 66));
+    color: #fff;
+    height: 90vh;
+}
+
+.about-usheader>h1 {
+    color: #fff;
+    font-size: 5vw;
+    position: absolute;
+    top: 35%;
+    left: 7%;
+}

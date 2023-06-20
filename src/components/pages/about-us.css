@@ -1,0 +1,23 @@
+.sink {
+    height: 90vh;
+    width: 33.3333%;
+}
+
+.texts>h1 {
+    color: #0c2340;
+    font-size: 2vw;
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    right: 10%;
+}
+
+.texts>p {
+    color: #0c2340;
+    font-size: 1.5vw;
+
+    position: absolute;
+    width: 40%;
+    top: 45%;
+    right: 12%;
+}
