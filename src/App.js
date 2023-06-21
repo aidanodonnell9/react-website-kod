@@ -9,11 +9,12 @@ import Aboutus from './components/pages/about-us';
 import Patientforms from './components/pages/patient-forms';
 import Location from './components/pages/location';
 import Rights from './components/Rights';
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path='/' exact element={<Home />}></Route>
@@ -21,7 +22,7 @@ function App() {
           <Route path='/patient-forms' exact element={<Patientforms />}></Route>
           <Route path='/location' exact element={<Location />}></Route>
         </Routes>
-      </Router>
+      </HashRouter>
       <Footer />
       <Rights />
     </>
